@@ -99,15 +99,16 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("🤔Help", callback_data = "ghelp"),
-                        InlineKeyboardButton('Other Bots🤖', url='https://t.me/Mo_Tech_YT/141')
-                ],
-                [
-                    InlineKeyboardButton('🗣️ Any Doubt', url='https://t.me/Mo_Tech_Group'),
-                    InlineKeyboardButton('Bot Updates 🤖', url='https://t.me/Mo_Tech_YT')
-                ],
-                [
-                    InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/wCB2zbwEguA')
+                    InlineKeyboardButton("🤖 About Me 🤖", callback_data = "help")
+                 ],[
+                    InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                ],[
+                InlineKeyboardButton('🎟 Movies', url='https://t.me/movieworldkdy'),
+                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                ],[
+                InlineKeyboardButton('👤 Developer', url='https://t.me/shamilnelli'),
+                InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
         ),
